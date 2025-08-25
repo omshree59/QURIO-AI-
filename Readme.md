@@ -4,6 +4,12 @@ A modern, AI-powered learning platform that helps users learn through interactiv
 Website is live now - https://app--learn-ai-d06464b7.base44.app 
 ## Features
 
+![image alt](https://github.com/omshree59/QURIO-AI-/blob/9599535825854b927278d54f06b956faa3fc4281/Screenshot%202025-08-25%20184831.png)
+![image alt](https://github.com/omshree59/QURIO-AI-/blob/9599535825854b927278d54f06b956faa3fc4281/Screenshot%202025-08-25%20184709.png)
+![image alt](https://github.com/omshree59/QURIO-AI-/blob/9599535825854b927278d54f06b956faa3fc4281/Screenshot%202025-08-25%20184816.png)
+![image alt](https://github.com/omshree59/QURIO-AI-/blob/9599535825854b927278d54f06b956faa3fc4281/Screenshot%202025-08-25%20184755.png)
+
+
 ### 🧠 Intelligent Quiz Generation
 - AI-powered question creation using advanced language models
 - Multiple difficulty levels (Easy, More Challenging, Tougher)
