@@ -1,0 +1,53 @@
+{
+  "name": "Quiz",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Quiz title"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Topics covered in the quiz"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "description": "Quiz difficulty level"
+    },
+    "total_questions": {
+      "type": "number",
+      "description": "Total number of questions"
+    },
+    "correct_answers": {
+      "type": "number",
+      "description": "Number of correct answers"
+    },
+    "time_taken": {
+      "type": "number",
+      "description": "Time taken in seconds"
+    },
+    "score_percentage": {
+      "type": "number",
+      "description": "Score as a percentage"
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the quiz was completed"
+    }
+  },
+  "required": [
+    "title",
+    "topics",
+    "difficulty",
+    "total_questions"
+  ]
+}

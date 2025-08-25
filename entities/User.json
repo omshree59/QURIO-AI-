@@ -1,0 +1,67 @@
+{
+  "name": "User",
+  "type": "object",
+  "properties": {
+    "bio": {
+      "type": "string",
+      "description": "User biography"
+    },
+    "avatar_url": {
+      "type": "string",
+      "description": "URL to user's profile picture"
+    },
+    "learning_preferences": {
+      "type": "object",
+      "properties": {
+        "favorite_topics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "preferred_difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard", "adaptive"],
+          "default": "adaptive"
+        },
+        "daily_goal": {
+          "type": "number",
+          "default": 10
+        }
+      }
+    },
+    "statistics": {
+      "type": "object",
+      "properties": {
+        "total_quizzes": {
+          "type": "number",
+          "default": 0
+        },
+        "total_questions": {
+          "type": "number",
+          "default": 0
+        },
+        "correct_answers": {
+          "type": "number",
+          "default": 0
+        },
+        "current_streak": {
+          "type": "number",
+          "default": 0
+        },
+        "longest_streak": {
+          "type": "number",
+          "default": 0
+        },
+        "badges": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    }
+  },
+  "required": ["bio", "avatar_url", "learning_preferences", "statistics"]
+}

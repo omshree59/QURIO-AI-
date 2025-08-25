@@ -1,0 +1,31 @@
+{
+  "name": "qurio-ai-learning-platform",
+  "version": "1.0.0",
+  "description": "AI-powered learning platform with quizzes, progress tracking, and intelligent chatbot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "lucide-react": "^0.263.1",
+    "date-fns": "^2.29.3",
+    "framer-motion": "^10.12.0",
+    "recharts": "^2.5.0"
+  },
+  "keywords": [
+    "react",
+    "ai",
+    "learning",
+    "quiz",
+    "education",
+    "chatbot"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
