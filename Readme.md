@@ -1,7 +1,7 @@
 # Qurio AI - Smart Learning Platform
 
 A modern, AI-powered learning platform that helps users learn through interactive quizzes, progress tracking, and an intelligent chatbot companion.
-
+Website is live now - https://app--learn-ai-d06464b7.base44.app 
 ## Features
 
 ### 🧠 Intelligent Quiz Generation
